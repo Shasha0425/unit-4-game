@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/backgroundimage5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+header {
+    color: pink;
+    background: coral;
+    padding: 20px;
+}
+
+#instructions{
+    background-color: aquamarine;
+
+}
+
+#header{
+    background-color: blueviolet;
+}
+
+#randomnumber{
+    background-color: red;
+}
+
+#score{
+    background-color: indigo;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.gem {
+    height:100px;
+    width: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row{
+    margin: 20px;
+}
+
+#crystals{
+    border-style: dotted;
+    border-color: gold;
+    border-width: 2px;
+}
+
+#numberguessed{
+    background-color:mediumspringgreen;
+}
+
+#mynumber{
+    background-color: gray;
+}

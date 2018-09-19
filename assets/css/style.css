@@ -3,10 +3,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
+    min-height: 100vh;
+    background-position: center;
 }
 header {
     color: pink;
-    background: coral;
+    /* background: coral; */
     padding: 20px;
 }
 
@@ -19,12 +21,12 @@ header {
     background-color: blueviolet;
 }
 
-#randomnumber{
-    background-color: red;
+/* #boxstyle{
+    background-color: red; */
 }
 
 #score{
-    background-color: indigo;
+    /* background-color: indigo; */
     margin-left: 10px;
     font-weight: bold;
 }

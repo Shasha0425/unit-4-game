@@ -12,63 +12,67 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row" id="header">
             <div class="col-md-12">
                 <h3>Shari's Crystal Game</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6" id="instructions">
+        <div class="row" id="instructions">
+            <div class="col-md-6">
                 <h2>Instructions</h2>
                 <p>Click on the gems to try and match the number!</p>
             </div>
             <div class="col-md-6">
             </div>
         </div>
-
+</div>
+        
+    <div class="container-fluid" id="boxstyle">
         <div class="row">
-            <div class="col-md-4" id="randomnumber">
-                <h2>Number Guess</h2>
+            <div class="col-md-4" >
+                <h2>Number to Guess: <span id="randomnumber"></span></h2>
             </div>
             <div class="col-md-2" id="score">
-                <p>Wins <span>____</span></p>
-                <p>Loses <span>____</span></p>
+                <p>Wins <span id="numberWins"></span></p>
+                <p>Loses <span id="numberLosses"></span></p>
             </div>
             <div class="col-md-6">  
             </div>
-        </div>
-
+        </div>  
+    </div>
+    
+    <div class="container-fluid" id="boxstyle">
         <div class="row">
             <div class="col-md-6"id="crystals">
-                <img class="gem" src="assets/images/SapphireGem.png" alt="Sapphire Crystal">
-                <img class="gem" src="assets/images/PinkGem.png" alt="Pink Crystal">
-                <img class="gem" src="assets/images/RubyGem.png" alt="Ruby Crystal">
-                <img class="gem" src="assets/images/PurpleGem.png" alt="Purple Crystal">
+                <img class="gem" id="sapphire" src="assets/images/SapphireGem.png" alt="Sapphire Crystal">
+                <img class="gem" id="pink" src="assets/images/PinkGem.png" alt="Pink Crystal">
+                <img class="gem" id="ruby" src="assets/images/RubyGem.png" alt="Ruby Crystal">
+                <img class="gem" id="purple" src="assets/images/PurpleGem.png" alt="Purple Crystal">
             </div>
             <div class="col-md-6">  
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-md-6" id="numberguessed">
-                <h5>Your Total Number is:</h5>
+        <!-- <div class="row">
+            <div class="col-md-6" >
+                <h3>Your Total Number is:<span id="mytotalnumber"></span></h3>
             </div>
             <div class="col-md-6">  
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
-            <div class="col-md-6" id="mynumber">
-                <h2>My Number</h2>
-                <p>__</p>
+            <div class="col-md-6" >
+                <h2>My Number: <span id="mytotalnumber"></span></h2>
             </div>
             <div class="col-md-6">
             </div>
         </div>
     </div>
 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script> 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 </body>    
 </html>

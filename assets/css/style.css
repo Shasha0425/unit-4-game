@@ -1,38 +1,24 @@
 body{
-    background-image: url("../images/backgroundimage5.jpg");
+    background-image: url("../images/coffee_beans.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
     min-height: 100vh;
     background-position: center;
 }
-header {
-    color: pink;
-    /* background: coral; */
-    padding: 20px;
-}
-
-#instructions{
-    background-color: aquamarine;
-
-}
 
 #header{
-    background-color: blueviolet;
-}
-
-/* #boxstyle{
-    background-color: red; */
+    background: linear-gradient(to right, #382b1c 0%,#503926 50%,#4a3522 51%,#6f4e35 100%);
+    font: white;
 }
 
 #score{
-    /* background-color: indigo; */
     margin-left: 10px;
     font-weight: bold;
 }
-.gem {
-    height:100px;
-    width: 100px;
+.addins {
+    height:250px;
+    width: 300px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
@@ -53,6 +39,3 @@ header {
     background-color:mediumspringgreen;
 }
 
-#mynumber{
-    background-color: gray;
-}

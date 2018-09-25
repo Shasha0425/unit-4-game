@@ -49,7 +49,7 @@ $( document ).ready(function() {
     }
 
     //Click event for each gem
-    $('#sapphire').on('click', function () {
+    $('#sugar').on('click', function () {
         total = total + RandomNumber[0];
         $('#mytotalnumber').text(total);
 
@@ -62,7 +62,7 @@ $( document ).ready(function() {
         }
     })
 
-    $('#pink').on('click', function () {
+    $('#cream').on('click', function () {
         total = total + RandomNumber[1];
         $('#mytotalnumber').text(total);
         
@@ -75,7 +75,7 @@ $( document ).ready(function() {
         }
     })
 
-    $('#ruby').on('click', function () {
+    $('#syrup').on('click', function () {
         total = total + RandomNumber[2];
         $('#mytotalnumber').text(total);
 
@@ -88,7 +88,7 @@ $( document ).ready(function() {
         }
     })
 
-    $('#purple').on('click', function () {
+    $('#whippedcream').on('click', function () {
         total = total + RandomNumber[3];
         $('#mytotalnumber').text(total);
 
